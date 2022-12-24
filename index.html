@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Video Trailer Popup</title>
+    <!-- Google fonts -->
+    
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="popup">
+        <img class="popup__img" src="img/poster.avif" alt="poster of the social network">
+        <div class="popup__content">
+            <h2 class="popup__title">The social network.</h2>
+            <p class="popup__text">The film tells the story of the creation of one of the most popular social networks on the Internet - Facebook. The resounding success of this network among users around the world forever changed the lives of fellow students at Harvard University, who founded it in 2004 and within a few years became the youngest multimillionaires in the United States.</p>
+            <button class="popup__button button">Watch now!</button>
+            <div class="popup__trailer-container active">
+                <video class="video" src="The Social Network – FIRST 10 MINUTES.mp4" controls></video>
+                <i class="fas fa-times close-icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
