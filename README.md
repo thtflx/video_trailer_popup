@@ -1,3 +1,3 @@
 # video-trailer-popup 
 
-(<a href="tht-video-trailer-popup">link</a>)
+(<a href="https://tht-video-trailer-popup.netlify.app/">link</a>)
